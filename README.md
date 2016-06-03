@@ -22,7 +22,8 @@
 
 ## word2vec
 
-&nbsp;&nbsp;&nbsp;word2vec 은 2013년 Mikolov 등 구글 엔지니어들이 제안한 자연어처리 방식으로 단어를 vector space에 embedding 하고 벡터로 단어를 표현하는 것입니다. 이 방식을 통해 자연어 처리 분야에서 비약적인 정밀도 향상을 가능하게 하였습니다. word2vec의 알고리즘은 Neural Network에 같이 출연하는 단어들을 의미상 연관된 단어라고 가정하고 vector space 에서 두 단어 사이의 거리를 점차 줄이는 알고리즘입니다. 방법은 간단하지만 이 Neural Network를 학습시키는 데에는 많은 계산이 필요한데 word2vec은 최적화가 매우 잘 되어 있기에 빠른 시간 내에 학습을 시킬 수 있습니다. 구체적인 최적화 방법은 수학적으로 복잡하기에 여기서 언급하지 않고 궁금하신 분들은 위의 논문을 참고해주시기 바랍니다.
+&nbsp;&nbsp;&nbsp;word2vec 은 2013년 Mikolov 등 구글 엔지니어들이 제안한 자연어처리 방식으로 단어를 vector space에 embedding 하고 벡터로 단어를 표현하는 것입니다. 이 방식을 통해 자연어 처리 분야에서 비약적인 정밀도 향상을 가능하게 하였습니다. word2vec의 알고리즘은 Neural Network에 같이 출연하는 단어들을 의미상 연관된 단어라고 가정하고 vector space 에서 두 단어 사이의 거리를 점차 줄이는 알고리즘입니다. 방법은 간단하지만 이 Neural Network를 학습시키는 데에는 많은 계산이 필요한데 word2vec은 최적화가 매우 잘 되어 있기에 빠른 시간 내에 학습을 시킬 수 있습니다. 구체적인 최적화 방법은 수학적으로 복잡하기에 여기서 언급하지 않고 궁금하신 분들은 아래 레퍼런스 란의
+ 논문을 참고해주시기 바랍니다.
 
 &nbsp;&nbsp;&nbsp;Mikolov and Google engineers first made word2vec, which is a neural-network-based natural language processing algorithm that models words as vectors in high dimensional space. Over the years, Word2vec has proven to bring a tremendous improvement in accuracy. Word2Vec assumes co-appearing words must be semnatically similar and defines the similarities of different words as the distances between corresponding word vectors. Additionally, word2vec is highly optimized so that a standard laptop can train such a model in reasonably short time. More concrete and mathematical details can be found in the papers mentioned in references
 
@@ -244,5 +245,7 @@ Nylon korea_올 봄 유행 립컬러부터 각질없이 레드립 바르는 TIP 
 
 ##Reference
 [http://arxiv.org/pdf/1301.3781.pdf]
+
 [http://arxiv.org/pdf/1405.4053v2.pdf]
+
 [https://code.google.com/archive/p/word2vec/]
