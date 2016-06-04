@@ -245,6 +245,9 @@ Nylon korea_올 봄 유행 립컬러부터 각질없이 레드립 바르는 TIP 
 
 ##Reference
 [http://arxiv.org/pdf/1301.3781.pdf]
+
 [http://arxiv.org/pdf/1405.4053v2.pdf]
+
 [https://code.google.com/archive/p/word2vec/]
+
 [https://arxiv.org/pdf/1411.2738.pdf]
